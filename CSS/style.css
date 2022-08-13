@@ -14,7 +14,7 @@ header{
     align-items: center;
 }
 
-nav a{
+.nav1 a{
     text-decoration: none;
     font-family: helvetica;
     margin: 20px;
@@ -28,5 +28,5 @@ section{
     background-color: gray;
     height: 80px;
     width: 100%;
-    
+    text-align: center;
 }
