@@ -66,3 +66,13 @@ img{
     margin-top: 50px;
 
 }
+
+/******** hearBody ********/
+
+.hearBody{
+     background-image: url("/image/Appleseed/Appleseed_Ex_Machina.JPG");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 60vh;
+}
