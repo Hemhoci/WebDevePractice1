@@ -1,5 +1,21 @@
-let myScript = document.getElementsByClassName("boxes");
-for (let i = myScript.length - 1; i >= 0; i--) {
-    let myChecker = myScript[i].className = "newBoxes";
-    console.log(myChecker);
-}
+let myScript = document.getElementById("box1");
+let myScriptMod = myScript.firstChild.nodeValue;
+let myScriptMod2 = myScriptMod.replace('Fish & chips', 'Pizza');
+myScript.firstChild.nodeValue = myScriptMod2;
+console.log(myScript);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
