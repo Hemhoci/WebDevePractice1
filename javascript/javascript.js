@@ -13,10 +13,11 @@ newScript.appendChild(newScriptChild);
 newScriptChild.appendChild(newText);
 console.log(newScript);
 let scriptPosition2 = document.getElementsByTagName('ol')[0];
-scriptPosition2.appendChild(newScript);
 
 
-
+let removeScript = document.getElementsByTagName('li')[2];
+let removalContainer = removeScript.parentNode;
+console.log(removalContainer);
 
 
 
