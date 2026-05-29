@@ -1,13 +1,9 @@
-let myScript = document.getElementById("box1");
-myScript.className = 'BigBox';
-console.log(myScript.className);
+let myScript = document.getElementsByTagName('ul')[0];
 
-let myScript2 = document.getElementsByTagName('li').item(2);
-myScript2.setAttribute('class','Power');
-console.log(myScript2);
-let myScriptModified = document.querySelectorAll('li');
-console.log(myScriptModified);
-myScript2.removeAttribute('class');
-console.log(myScript2);
-myScript2.removeAttribute('id');
+let newItemList = document.createElement('li');
+let newTextList = document.createTextNode('cream');
+newItemList.appendChild(newTextList);
+myScript.appendChild(newItemList);
+
+let myScript2 = document.getElementsByTagName('li');
 console.log(myScript2);
