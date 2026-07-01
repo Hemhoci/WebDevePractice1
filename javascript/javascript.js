@@ -1,9 +1,7 @@
-let myScript = document.getElementsByTagName('ul')[0];
+let myScript = document.getElementById('box1');
 
-let newItemList = document.createElement('li');
-let newTextList = document.createTextNode('cream');
-newItemList.appendChild(newTextList);
-myScript.appendChild(newItemList);
+if(myScript.hasAttribute('class')) {
+    myScript.removeAttribute('class');
+}
 
-let myScript2 = document.getElementsByTagName('li');
-console.log(myScript2);
+console.log(myScript);
