@@ -15,11 +15,68 @@ header{
     justify-content: center;
     align-items: center;
     width: 1000px;
-    height: auto;
+    height: 700px;
+    margin: auto;
 }
 
 .box{
     width: 100%;
     height: 100%;
     border: 2px solid black;
+    display: none;
+}
+
+.numberPage{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.squareName{
+    position: relative;
+    top: 75%;
+    left: 45%;
+}
+/***** Color Boxes *****/
+.redBox{
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+
+.blueBox{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.redBox, .blueBox{
+    color: white;
+}
+.greenBox{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.goldBox{
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+.prev, .next{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: heavy;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    left: 12%;;
+    cursor: pointer;
+}
+
+.next{
+    left: 83%;
+}
+
+.prev:hover, .next:hover{
+    background-color: black;
+    color: white;
 }
