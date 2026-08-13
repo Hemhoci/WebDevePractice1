@@ -1,1 +1,10 @@
- 
+ .accordion{
+    background-color: rgba(80,80,70,0.5);
+    color: rgba(10,10,10,1);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+
+ }
