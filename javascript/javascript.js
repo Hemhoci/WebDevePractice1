@@ -1,9 +1,7 @@
-let myScript = document.getElementsByTagName('ul')[0];
+let demo = document.getElementById("demo");
+let button = document.getElementById("btnSubmit");
 
-let newItemList = document.createElement('li');
-let newTextList = document.createTextNode('cream');
-newItemList.appendChild(newTextList);
-myScript.appendChild(newItemList);
-
-let myScript2 = document.getElementsByTagName('li');
-console.log(myScript2);
+button.addEventListener("click", function(){
+    demo.innerHTML = "This is my first event listener";
+}
+);
