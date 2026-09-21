@@ -6,5 +6,21 @@
     width: 100%;
     padding: 15px;
     cursor: pointer;
-
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.4s;
 }
+
+.active, .accordion:hover{
+    background-color: #ccc;
+    border: 2px solid black;
+}
+.panel{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
